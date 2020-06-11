@@ -1,7 +1,7 @@
 {
-  "name": "microbundle-ts-pkg",
-  "description": "A TypeScript npm package skeleton/starter project with microbundle, AVA and XO",
-  "version": "0.0.1",
+  "name": "alpine-auto-init",
+  "description": "Alpine.js `x-init=\"init()\"` automatically ",
+  "version": "0.0.0",
   "source": "src/main.ts",
   "main": "dist/main.umd.js",
   "module": "dist/main.modern.module.js",
@@ -21,15 +21,18 @@
     "test": "ava",
     "lint": "xo src tests",
     "format": "xo src tests --fix",
+    "fmt": "yarn format",
     "prepack": "rm -rf dist && yarn build",
-    "release": "yarn prepack && source .env && np"
+    "release": "yarn prepack && np"
   },
   "devDependencies": {
     "ava": "^3.8.2",
     "esm": "^3.2.25",
+    "jsdom": "^16.2.2",
     "microbundle": "^0.12.0",
     "np": "^6.2.4",
-    "xo": "^0.32.0"
+    "xo": "^0.32.0",
+    "@types/jsdom": "^16.2.3"
   },
   "xo": {
     "prettier": true,
@@ -43,7 +46,6 @@
     ]
   },
   "license": "MIT",
-  "dependencies": {},
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
@@ -52,11 +54,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HugoDF/microbundle-ts-pkg.git"
+    "url": "git+https://github.com/HugoDF/alpine-auto-init.git"
   },
   "author": "Hugo",
   "bugs": {
-    "url": "https://github.com/HugoDF/microbundle-ts-pkg/issues"
+    "url": "https://github.com/HugoDF/alpine-auto-init/issues"
   },
-  "homepage": "https://github.com/HugoDF/microbundle-ts-pkg#readme"
+  "homepage": "https://github.com/HugoDF/alpine-auto-init#readme"
 }

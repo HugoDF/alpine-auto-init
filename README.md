@@ -1,13 +1,12 @@
-![Build](https://github.com/HugoDF/buttondown/workflows/Build%20&%20test/badge.svg)
+![Build](https://github.com/HugoDF/alpine-auto-init/workflows/Build%20&%20test/badge.svg)
 
-microbundle-ts-pkg: A TypeScript npm package skeleton/starter project with microbundle, AVA and XO
+# Alpine.js auto-init
 
-Comes with:
+Alpine.js `x-init="init()"` automatically 
 
-- [SAMPLE_README.md](./SAMPLE_README.md) and [USE_CASES.md](./USE_CASES.md) for documentation.
-- AVA for testing (see [./tests](./tests))
-- XO for linting/formatting
-- microbundle for compiling TypeScript to UMD, ESM, CJS
+## Quick start
+
+Usage: _Coming soon_
 
 ## Requirements
 
