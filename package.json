@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@types/jsdom": "^16.2.3",
-    "ava": "^3.8.2",
+    "ava": "^3.9.0",
     "esm": "^3.2.25",
     "jsdom": "^16.2.2",
     "microbundle": "^0.12.0",
